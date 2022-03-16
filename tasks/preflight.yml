@@ -1,0 +1,5 @@
+---
+# preflight file for {{ role_name }}
+
+# validate all input variables here
+

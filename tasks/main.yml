@@ -1,0 +1,16 @@
+---
+# tasks file for {{ role_name }}
+
+- name: Creates directory
+  file:
+    path: /src/www
+    state: directory
+
+## DEBUGGING
+
+- name: "DEBUG - value of ansible_distribution"
+  debug: var=ansible_distribution
+  when: {{ role_name }}_debug
+
+
+- import_tasks: preflight.yml

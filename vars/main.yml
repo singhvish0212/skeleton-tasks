@@ -1,0 +1,5 @@
+---
+# vars file for {{ role_name }}
+
+# Use '{{ role_name }}_' prefix for all variables
+
